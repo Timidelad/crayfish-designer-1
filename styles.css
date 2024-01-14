@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+.hero-section {
+    background-image: url(./images/Hero\ landscape\ image\ container.png);
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.header-left-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-right-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 100px;
+}
+
+.start {
+    text-align: center;
+    width: 119px;
+    line-height: 57px;
+    border-radius: 6px;
+    background-color: #9BCC54;
+    color: black;
+}
+
+.hero-text-group {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 821px;
+    gap: 16px;
+    padding: 100px 100px;
+    word-wrap: break-word;
+}
+
+.heading-block-text {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 97.34px;
+    word-wrap: break-word;
+    width: 821px;
+} 
+
+.paragraph-block {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.about-us-image img, .about-us2-image img {
+    width: 100%;
+    height: auto;
+}
+
+.about-us-heading-block-text, .about-us2-heading-block-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60.84px;
+}
+
+.about-us-paragraph-block, .about-us2-paragraph-block {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 100px 0px;
+    top: 659px;
+    align-items: center;
+}
+
+.about-us-section, .about-us2-section {
+    width: 480px;
+}
+
+.about-us2 {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 100px 0px;
+    top: 659px;
+    align-items: center;
+}
+
+.hero-landscape {
+    background-image: url(./images/Hero\ landscape\ image\ container\ 2.png);
+    width: 100%;
+    height: 659px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    overflow: hidden;
+}
+
+
+.hero-landscape-heading-block-text {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 73.01px;
+    width: 821px;
+    padding: 0 100px;
+}
+
+.hero-landscape-paragraph-block {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 821px;
+    padding: 0 100px;
+}
+
+.vector {
+    position: relative;
+    right: 0;
+    background-image: url(./images/Vector\ 13.png);
+    width: 380px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vector-image img {
+    margin-left: 70px;
+}
+
+
+.vector-text {
+    width: 307px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60.84px;
+    margin-left: 70px;
+}
+
+.span {
+    color: white;
+}
+
+.vector-container {
+    display: flex;
+    justify-content: end;
+    margin-top: -170px;
+    padding: 50px 100px;
+}
+
+.latest {
+    text-align: left;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 73px;
+    padding-left: 100px;
+}
+
+.news-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    gap: 10px;
+}
+
+.news-div1 {
+    background-image: url(./images/News\ section\ image\ container\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.news-div2 {
+    background-image: url(./images/News\ section\ image\ container\.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.news-div3 {
+    background-image: url(./images/News\ section\ image\ container\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.news-div1 div {
+    width: 348px;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+
+.news-div2 div {
+    width: 348px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.news-div3 div {
+    width: 348px;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+
+.div-comment1-header, .subscribe-header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 73px;
+}
+
+.div-comment2, .div-comment3, .div-comment1 {
+    width: 100%;
+}
+
+.div-comment2 img, .div-comment3 img {
+    width: 100%;
+}
+
+.div-comment1 p, .div-comment2 p, .div-comment3 p, .subscribe2-div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.client-comment {
+    display: flex;
+    margin: 100px 100px;
+}
+
+.client-comment .left {
+    margin-left: 10px;
+}
+
+.subscribe-input {
+    width: 70%;
+    height: 61px;
+    border: none;
+    background-color: #DEE4E0;
+    border-radius: 6px;
+}
+
+.subscribe-button {
+    width: 25%;
+    line-height: 61px;
+    text-align: center;
+    background: #9BCC54;
+    color: white;
+    border-radius: 6px;
+}
+
+.susbsribe-div {
+    display: flex;
+
+}
+
+.susbsribe-div .subscribe-button {
+    margin-left: 10px;
+}
+
+.subscribe-imgage img {
+    width: 100%;
+    height: auto;
+}
+
+.subscribe {
+    display: flex;
+    margin: 0 100px;
+    align-items: center;
+}
+
+.subscribe2-div {
+    margin-left: 50px;
+    width: 523px;
+}
+
+.footer-div {
+    background-image: url(./images/footer\ section\ frame.png);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.footer-div1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 73px;
+    color: white;
+    text-align: center;
+}
+
+.footer-div2 {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: 20px 200px;
+}
+
+.footer-div3 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 100px 450px;
+}
+
+.footer-div3 div {
+    border: 1px solid white;
+    padding: 5px;
+}
